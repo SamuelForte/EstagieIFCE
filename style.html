@@ -14,21 +14,28 @@
 <body>
 <div class="login-page">
     <div class="form">
+      <div id="btnAction" style="display: flex; margin-bottom: 1rem;">
+        <button style="background-color: grey;" id="btnStudent">Estudante</button>
+        <button id="btnSupervisor">Supervisor</button>
+      </div>
+
       <form class="register-form">
-        <input type="text" placeholder="name"/>
-        <input type="password" placeholder="password"/>
+        <input id="name" type="text" placeholder="name"/>
+        <input id="password" type="password" placeholder="password"/>
         <input type="text" placeholder="email address"/>
-        <button>create</button>
+        <button id="btnCreate">create</button>
         <p class="message">Já registrado? <a href="#">Sign In</a></p>
       </form>
       <form class="login-form">
-        <input type="text" placeholder="Matricula"/>
-        <input type="password" placeholder="Senha"/>
-        <button>Entrar</button>
-        <p class="message">Não registrado? <a href="#">Crie a sua conta aqui</a></p>
+        <input id="loginMatricula" type="text" placeholder="Matricula"/>
+        <input id="loginPassword" type="password" placeholder="Senha"/>
+        <button id="btnLogin">Entrar</button>
+        <p class="message">Não registrado? <a href="/account.html">Crie a sua conta aqui</a></p>
       </form>
     </div>
   </div>
+  <script src="./login.js"></script>>
+    
   <body>
 
 </html>
